@@ -1,0 +1,430 @@
+/*
+Author: Zach Morse
+Date: 27/12/22
+File Name: styles.css
+*/
+body, header, nav, main, footer, h1, h2, h3, h4, h5, h6, div, img, ul, fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+* {
+    font-family: arial;
+    font-size: 16px;
+}
+h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    background-color: #fbfcfd;
+}
+main p, main li strong, main li, main a, main strong {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+h1 {
+    font-size: 2rem;
+    line-height: 2.7rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.mobile {
+	display: block;
+}
+footer {
+    text-align: center;
+    background-color:	#0e1111;
+    min-height: 150px;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: grey;
+}
+.footer-logo {
+    width: 100px;
+}
+.footer-title {
+    color: grey;
+}
+footer hr {
+    width:50%;
+    margin:0 auto;
+}
+#footer-socials, #footer-nav {
+    padding: 20px 30px;
+}
+.img-zach {
+    border-radius: 50%;
+    width: 150px;
+    padding-bottom: 2vh;
+}
+#hero-background {
+    background-image: url('../images/tropical_background.jpg');
+    min-height: 100vh
+}
+#landing-page {
+    padding: 0 20px 0 20px;
+    display: grid;
+    justify-content: center;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.page_title {
+    color: white;
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
+.hero-title, .tagline {
+    background-color: #000000a6;
+    padding: 5px 20px;
+}
+.logo img {
+    margin: auto;
+    width: 100px;
+    padding: 3vh 0 15vh 0;
+    display: block;
+}
+.logo_blog img {
+    margin: auto;
+    width: 100px;
+    display: block;
+}
+.blog_button a{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    color: white;
+    background-color: #f06262;
+    padding: 10px 40px;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 5;
+    text-decoration: none;
+}
+.tagline{
+    font-family: 'Franklin Gothic Medium';
+    max-width: 350px;
+}
+.call-to-action {
+    text-align: center;
+    margin-top: 120px;
+}
+.call-to-action a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #f06262;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+#heading-section {
+    background-color: #08130c;
+    min-height: 140px;
+}
+.heading_tagline {
+    margin: 0 auto;
+    color: #ffffffd2;
+    max-width: 300px;
+    text-align: center;
+    padding: 30px 0;
+}
+#colour-pop {
+    color: #f06262;
+    font-size: 2rem;
+}
+.grow { 
+    transition: all .15s ease-in-out; 
+}
+.grow:hover { 
+    transform: scale(1.03);
+    box-shadow: 0 0 10px#f06262; 
+}
+.heading-style {
+    color: #f06262;
+}
+#chat-cta {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 7vh 10px 7vh 10px;
+    text-align: center;
+}
+#chat-cta img {
+    margin: auto auto;
+    min-height: 40%;
+    min-width: 40%;
+    align-items: center;
+}
+#cta-caption a{
+    text-decoration: none;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    background-color: #0e1111;
+}
+.long-word {
+    word-break: break-all;
+}
+.desktop-img {
+    display: none;
+}
+.remove-margins {
+    margin: 0;
+    padding-bottom: 50px;
+}
+#terms, #privacy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+}
+#services {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#seo-main, #seo-info, #webdesign-main, #webdesign-info, #webdev-main, #webdev-info {
+    padding: 20px;
+}
+.service-symbol {
+    width: 30px;
+}
+.side-image {
+    width: 100%;
+    height: auto;
+}
+.enlarge {
+    font-size: 1.5rem;
+}
+#breaker hr {
+    border-color: #f062629f;
+    width: 33%;
+}
+#breaker {
+    padding: 100px 0;   
+}
+#reviews {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px;
+}
+#money-back {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 80px 20px 0 ;
+    justify-content: space-between;
+} 
+#money-back img {
+    width: 50%;
+}
+#reviews > div {
+    padding: 40px 0;
+}
+#reviews img {
+    width: 50%;
+    height: auto;
+}
+#faq-section {
+    text-align: center;
+    padding: 100px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.faq {
+    border-bottom: 2px solid black;
+}
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border:none;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #fbfcfd;
+}
+.d-arrow{
+    transition: transform 0.3s ease-in ;
+    color: #000000;
+}
+.faq #faq-answer.show{
+    max-height: 400px;
+    opacity: 1;
+}
+.faq-question .d-arrow.rotate{
+    transform: rotate(-90deg);
+}
+#faq-answer {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+#faq-heading {
+    padding-bottom: 40px;
+}
+.desktop-nav {
+    padding: 50px 0 50px;
+}
+#article {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.author, .published {
+    font-size: 14px;
+}
+.article_image {
+    width: 100%;
+}
+#article-section {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+.article_category {
+    color: #f06262;
+}
+#article-section img{
+    width: 100%;
+}
+#article-section a {
+    text-decoration: none;
+    color: #000000;
+}
+#article-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#article-section > div:hover {
+    transform:translate(0, -1.5%);
+    transition: transform 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 400px){
+    #colour-pop {
+        font-size: 2.5rem;
+    }
+    .hero-title {
+        font-size: 2.5rem;
+        padding: 5px 20px;
+    }
+    .call-to-action a {
+        font-size: 1.8rem;
+        padding: 20px 100px;
+    }
+}
+
+@media screen and (min-width: 933px){
+	.mobile {   
+		display: none;   
+	}
+    h2 {
+        font-size: 2rem;
+    }
+    .tagline {
+        max-width: 430px;
+        padding: 5px 20px;
+    }
+    #landing-page h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+    #hero-background {
+        min-height: 100vh;
+    }
+    #chat-cta {
+        grid-template-columns: 1fr 1.75fr;
+        align-items: center;
+    }
+    #chat-cta img {
+        min-height: 75%;
+        min-width: 75%;
+    }
+    #colour-pop {
+        font-size: 3rem;
+    }
+    .hero-title {
+        font-size: 3rem;
+        padding: 5px 20px;
+    }
+    .img-zach {
+        padding: 0;
+    }
+    #footer-socials, #footer-nav {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .logo img {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        padding: 0;
+    }
+    .logo_blog img {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        padding: 0;
+    }
+    #landing-page {
+        padding: 25vh 0 0 30px;
+    }
+    .page_title {
+        padding: 15vh 0 0 0;
+    }
+    #webdesign, #seo, #webdev {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .call-to-action a {
+        padding: 20px 150px;
+    }
+    #reviews {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    #money-back img {
+        width: auto;
+    }
+    #article-section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1068px){
+    .desktop-img {
+        display: block;
+    }
+    .mobile-img {
+        display: none;
+    }
+}
