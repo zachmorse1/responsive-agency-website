@@ -1,2 +1,2 @@
 # responsive-agency-website
-A responsive web application built to explore modern frontend development. 
+A responsive website built as part of a real-world web design experiment.
