@@ -7,13 +7,20 @@ https://zachmorse1.github.io/responsive-agency-website/
 
 ## Overview
 
-
-### Mobile View
-![Mobile homepage](images/morse-media-phone.jpg)
-
 This project is a fully responsive website built as part of a real-world web design experiment. The goal was to design, build, and deploy a client facing website while gaining practical experience with modern frontend frameworks, responsiveness, and real world constraints.
 
 The business itself is no longer active, but the project remains as a technical and learning reference.
+
+---
+
+## Screenshots
+
+### Desktop View
+![Desktop homepage](images/desktop-home-page.png)
+
+### Mobile View
+![Mobile homepage](images/mobile-home-page.png)
+
 
 ---
 
